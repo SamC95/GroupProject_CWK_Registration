@@ -1,0 +1,2 @@
+C:\Users\Samcl\source\repos\w1854525_CWK_Registration\obj\Debug\w1854525_cwk_registration.esproj.SuggestedBindingRedirects.cache
+C:\Users\Samcl\source\repos\w1854525_CWK_Registration\obj\Debug\w1854525_cwk_registration.esproj.CoreCompileInputs.cache
