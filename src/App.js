@@ -40,7 +40,7 @@ function App() {
                         <Route path="/" element={<HomePage />}> </Route>
                         <Route path="/home-page-patient" element={<HomePagePatient />}> </Route>
                         <Route path="/home-page-doctor" element={<HomePageDoctor />}> </Route>
-                        <Route path="/home-page-admin" element={<HomePageAdmin/>}> </Route>
+                        <Route path="/home-page-admin" element={<HomePageAdmin />}> </Route>
                         <Route path="/create-account" element={<CreateAccount />}> </Route>
                         <Route path="/delete-account" element={<DeleteAccount />}> </Route>
                         <Route path="/account-type" element={<AccountType />}> </Route>
