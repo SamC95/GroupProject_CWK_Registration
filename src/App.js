@@ -7,10 +7,7 @@ import React, { useEffect } from 'react';
 import { Page, Footer, TopNav } from 'govuk-react'
 import CreateAccount from './Components/CreateAccount';
 import DeleteAccount from './Components/DeleteAccount';
-import HomePage from './Components/HomePage';
-import HomePagePatient from './Components/HomePagePatient';
-import HomePageDoctor from './Components/HomePageDoctor';
-import HomePageAdmin from './Components/HomePageAdmin';
+import HomePage from './Components/HomePage'
 import NHSinput from './Components/NHSinput';
 import NameDetails from './Components/NameDetails'
 import ContactDetails from './Components/ContactDetails';
@@ -38,9 +35,6 @@ function App() {
             <BrowserRouter>
                 <Routes>
                         <Route path="/" element={<HomePage />}> </Route>
-                        <Route path="/home-page-patient" element={<HomePagePatient />}> </Route>
-                        <Route path="/home-page-doctor" element={<HomePageDoctor />}> </Route>
-                        <Route path="/home-page-admin" element={<HomePageAdmin/>}> </Route>
                         <Route path="/create-account" element={<CreateAccount />}> </Route>
                         <Route path="/delete-account" element={<DeleteAccount />}> </Route>
                         <Route path="/account-type" element={<AccountType />}> </Route>
